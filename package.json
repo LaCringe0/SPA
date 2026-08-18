@@ -1,0 +1,45 @@
+{
+  "homepage": "https://github.com/LaCringe0/SPA.git",
+  "name": "spa",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vuepic/vue-datepicker": "^14.0.0",
+    "v-calendar": "^3.1.2",
+    "vue": "rc"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.1.5",
+    "vite-plugin-vue-devtools": "^8.1.5"
+  },
+  "engines": {
+    "node": "^22.18.0 || >=24.12.0"
+  },
+  "overrides": {
+    "vue": "rc",
+    "@vue/compiler-core": "rc",
+    "@vue/compiler-dom": "rc",
+    "@vue/compiler-sfc": "rc",
+    "@vue/compiler-ssr": "rc",
+    "@vue/compiler-vapor": "rc",
+    "@vue/reactivity": "rc",
+    "@vue/runtime-core": "rc",
+    "@vue/runtime-dom": "rc",
+    "@vue/runtime-vapor": "rc",
+    "@vue/server-renderer": "rc",
+    "@vue/shared": "rc",
+    "@vue/compat": "rc"
+  }
+}
